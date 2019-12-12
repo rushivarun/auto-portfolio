@@ -47,10 +47,12 @@ class App extends Component {
           })
       }
 
+      
+
     render() {
         return (
-            <div className="tc">
-                <a href='http://localhost:8888'>Login to spotify</a>
+            <div className="tc bg-gray">
+                <a href='http://localhost:8888/login'>Login to spotify</a>
                 <div>
                     Now playing : {
                         this.state.now_playing.name
